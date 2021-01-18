@@ -1,6 +1,6 @@
 {
     "name": "LTN_Combinator_Modernized",
-    "version": "0.8.3",
+    "version": "0.8.4",
     "title": "LTN Combinator Modernized",
     "author": "kryojenik, Dockmeister",
     "homepage": "",
@@ -14,5 +14,5 @@
         "!LTN_Combinator_redux",
 		"!LTN_Helper"
 	],
-    "description": " Adds a new type of Constant Combinator to the game. They come with a custom GUI to ease the control of LTN signals."
+    "description": "Adds a new type of Constant Combinator to the game. It has a custom GUI to ease the control of LTN signals."
 }  
