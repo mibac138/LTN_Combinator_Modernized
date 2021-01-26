@@ -5,12 +5,10 @@ data:extend{
     key_sequence="",
     linked_game_control="toggle-menu",
   },
-  --[[
   {
     type="custom-input",
     name="ltnc-close",
     key_sequence="",
-    linked_game_control="confirm-gui",
+    linked_game_control="close-gui",
   },
-  ]]
 }

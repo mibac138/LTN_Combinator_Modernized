@@ -705,8 +705,7 @@ event.register(defines.events.on_gui_opened, function(e)
   end
 end)
 
---event.register({"ltnc-close", "ltnc-escape"}, function(e)
-event.register({"ltnc-escape"}, function(e)
+event.register({"ltnc-close", "ltnc-escape"}, function(e)
   ltnc_gui.Close(e.player_index)
 end)
 
