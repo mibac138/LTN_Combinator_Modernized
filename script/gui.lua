@@ -130,10 +130,12 @@ function ltnc_gui.Open(player_index, entity)
   local player = game.get_player(player_index)
   local rootgui = player.gui.screen
   if rootgui["ltnc-main-window"] then
+    --[[
     if rootgui["ltnc-main-window"].tags.unit_number  == entity.unit_number then
       player.opened = rootgui["ltnc-main-window"]
       return
     end
+    ]]
     ltnc_gui.Close(player_index)
   end
   local ltnc = create_window(player_index, entity.unit_number)
