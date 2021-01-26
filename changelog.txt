@@ -6,6 +6,12 @@ Date: 2021-1-25
   Change:
     - Add per-user setting to unconditionally show all LTN signals when not a Depot
 ---------------------------------------------------------------------------------------------------
+Version: 0.8.6
+Date: 2021-1-26
+  Bugfix:
+    - Fix crash when opening an LTN combinator when an LTN combinator is already open
+    - Fix 'E' not closing UI
+---------------------------------------------------------------------------------------------------
 Version: 0.8.5
 Date: 2021-1-25
   Feature:
